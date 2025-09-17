@@ -1884,9 +1884,9 @@ section,
   color: var(--accent-color);
 }
 
-.recent-posts .post-item:hover .post-img img {
+/* .recent-posts .post-item:hover .post-img img {
   transform: scale(1.1);
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Section

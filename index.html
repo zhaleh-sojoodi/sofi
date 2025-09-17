@@ -43,14 +43,29 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Über Uns</a></li>
+          <li><a href="#services">Leistungen</a></li>
+          <li class="dropdown"><a href="#"><span>Preisliste</span> <i
+                class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#fillerPriceModal" data-toggle="modal" data-target="#fillerPriceModal">Filler -
+                  Behandlung</a></li>
+              <li><a href="#mesoPriceModal" data-toggle="modal" data-target="#mesoPriceModal">Mesotherapie</a></li>
+              <li><a href="#fettWegSpritzePriceModal" data-toggle="modal" data-target="#fettWegSpritzePriceModal">Fett
+                  Weg Spritze</a></li>
+              <li><a href="#biobtxPriceModal" data-toggle="modal" data-target="#biobtxPriceModal">Bio BTX</a></li>
+              <li><a href="#needlingPriceModal" data-toggle="modal" data-target="#needlingPriceModal">Medizinische
+                  Needling</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Kontakt</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted flex-md-shrink-0" href="https://wa.me/4917639130222?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank">Book an Appointment</a>
+      <a class="btn-getstarted flex-md-shrink-0"
+        href="https://wa.me/4917639130222?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank">Termin
+        Buchen</a>
     </div>
   </header>
 
@@ -67,11 +82,11 @@
         </div>
         <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="1000">
           <div class="col d-flex flex-column justify-content-center">
-            <h1>Where Beauty Meets Precision!</h1>
+            <h1>wo Ästhetik auf Perfektion trifft!</h1>
             <div class="d-flex flex-column justify-content-center flex-md-row mt-4">
               <a href="https://wa.me/4917639130222?text=Hello%20I%20want%20to%20book%20an%20appointment" target="_blank"
                 class="btn-get-started">
-                Book an Appointment <i class="bi bi-arrow-right"></i>
+                Termin Buchen <i class="bi bi-arrow-right"></i>
               </a>
             </div>
           </div>
@@ -88,20 +103,25 @@
 
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
-              <h3>Who We Are</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti
-                reprehenderit.</h2>
+              <h3>Das sind wir</h3>
+              <h2>Willkommen bei SoFi, Ihrer Praxis für ästhetische Medizin in Düsseldorf-Oberkassel.</h2>
               <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur
-                itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
+                Wir verbinden moderne Verfahren mit fundiertem Fachwissen und langjähriger Erfahrung. Unser Anspruch:
+                ästhetische Behandlungen mit natürlichen, harmonischen Ergebnissen, die Ihre individuelle Ausstrahlung
+                unterstreichen.
+                In unserer stilvoll gestalteten Praxis schaffen wir Raum für Vertrauen, Ruhe und persönliche Beratung.
+                Mit einem klaren Blick für Details und einem feinen Gespür für Proportionen begleiten wir Sie auf dem
+                Weg zu einem frischen, authentischen Erscheinungsbild.
+                Bei SoFi trifft medizinisches Know-how auf Ästhetik für Resultate, die dezent, elegant und ganz Sie
+                selbst sind.
               </p>
-              <div class="text-center text-lg-start">
+              <!-- <div class="text-center text-lg-start">
                 <a href="#"
                   class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -118,8 +138,8 @@
     <section id="services" class="recent-posts section">
 
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Check our services</p>
+        <h2>Leistungen</h2>
+        <p>Unsere Leistungen</p>
       </div>
 
       <div class="container">
@@ -130,7 +150,7 @@
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
 
               <div class="post-img position-relative">
-                <img src="assets/img/pic02.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/filler1.jpg" class="img-fluid" alt="">
                 <!--<span class="post-date">Only $199</span>-->
               </div>
 
@@ -139,7 +159,26 @@
                 <h3 class="post-title">Filler - Behandlung</h3>
                 <hr>
                 <a href="#" class="readmore stretched-link" data-toggle="modal"
-                  data-target="#fillerPriceModal"><span>Price List</span><i class="bi bi-arrow-right"></i></a>
+                  data-target="#fillerPriceModal"><span>Preisliste</span><i class="bi bi-arrow-right"></i></a>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-item position-relative h-100">
+
+              <div class="post-img position-relative">
+                <img src="assets/img/fatway.jpg" class="img-fluid" alt="">
+                <!-- <span class="post-date">September 05</span> -->
+              </div>
+
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">Fett Weg Spritze</h3>
+                <hr>
+                <a href="#fettWegSpritzePriceModal" class="readmore stretched-link" data-toggle="modal"
+                  data-target="#fettWegSpritzePriceModal"><span>Preisliste</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -149,7 +188,7 @@
             <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
 
               <div class="post-img position-relative">
-                <img src="assets/img/pic03.jpg" class="img-fluid" alt="">
+                <img src="assets/img/meso.jpg" class="img-fluid" alt="">
                 <!-- <span class="post-date">July 17</span> -->
               </div>
 
@@ -158,27 +197,7 @@
                 <h3 class="post-title">Mesotherapie</h3>
                 <hr>
                 <a href="#mesoPriceModal" class="readmore stretched-link" data-toggle="modal"
-                  data-target="#mesoPriceModal"><span>Price List</span><i class="bi bi-arrow-right"></i></a>
-
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="post-item position-relative h-100">
-
-              <div class="post-img position-relative">
-                <img src="assets/img/pic04.jpeg" class="img-fluid" alt="">
-                <!-- <span class="post-date">September 05</span> -->
-              </div>
-
-              <div class="post-content d-flex flex-column">
-
-                <h3 class="post-title">Fett Weg Spritze</h3>
-                <hr>
-                <a href="#FettWegSpritzePriceModal" class="readmore stretched-link" data-toggle="modal"
-                  data-target="#FettWegSpritzePriceModal"><span>Price List</span><i class="bi bi-arrow-right"></i></a>
+                  data-target="#mesoPriceModal"><span>Preisliste</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -188,7 +207,7 @@
             <div class="post-item position-relative h-100">
 
               <div class="post-img position-relative">
-                <img src="assets/img/pic04.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/biobtx.jpg" class="img-fluid" alt="">
                 <!-- <span class="post-date">September 05</span> -->
               </div>
 
@@ -197,7 +216,7 @@
                 <h3 class="post-title">Bio BTX</h3>
                 <hr>
                 <a href="#biobtxPriceModal" class="readmore stretched-link" data-toggle="modal"
-                  data-target="#biobtxPriceModal"><span>Price List</span><i class="bi bi-arrow-right"></i></a>
+                  data-target="#biobtxPriceModal"><span>Preisliste</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -207,13 +226,13 @@
             <div class="post-item position-relative h-100">
 
               <div class="post-img position-relative">
-                <img src="assets/img/pic04.jpeg" class="img-fluid" alt="">
+                <img src="assets/img/needling1.jpg" class="img-fluid" alt="">
               </div>
 
               <div class="post-content d-flex flex-column">
 
                 <h3 class="post-title">Medizinische Needling</h3>
-<!-- 
+                <!-- 
                 <div class="meta d-flex align-items-center">
                   <div class="d-flex align-items-center">
                     <i class="bi bi-person"></i> <span class="ps-2">Lisa Hunter</span>
@@ -227,7 +246,7 @@
                 <hr>
 
                 <a href="#needlingPriceModal" class="readmore stretched-link" data-toggle="modal"
-                  data-target="#needlingPriceModal"><span>Price List</span><i class="bi bi-arrow-right"></i></a>
+                  data-target="#needlingPriceModal"><span>Preisliste</span><i class="bi bi-arrow-right"></i></a>
 
               </div>
 
@@ -336,8 +355,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>What they are saying about us<br></p>
+        <h2>Erfahrungsberichte</h2>
+        <p>Was unsere Patienten über uns sagen<br></p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -377,11 +396,28 @@
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Ich habe mir hier die Lippen machen lassen und bin mehr als zufrieden – das Ergebnis ist einfach
+                  perfekt und sehr natürlich! Auch die Fettwegspritze am Doppelkinn hat super funktioniert. Ich habe
+                  mich die ganze Zeit wohl und bestens beraten gefühlt. Absolut empfehlenswert!
+                  Ich werde meine ganzen Behandlungen nur bei SoFi machen.
                 </p>
                 <div class="profile mt-2">
-                  <h3>Saul Goodman</h3>
+                  <h3>Paulina Pietrowski</h3>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  Ich bin absolut begeistert von SoFi! Sehr professionell, herzlich und mit einem tollen Blick für
+                  Ästhetik. Ich habe mich rundum wohl und bestens aufgehoben gefühlt. Immer wieder gern!. Danke.
+                </p>
+                <div class="profile mt-2">
+                  <h3>Fr So</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -393,11 +429,12 @@
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  I had an amazing experience with SoFi. Professional and knowledgeable. The results were beyond my
+                  expectations natural-looking, and exactly what I was hoping for. Can't wait to see you again in
+                  Vancouver.
                 </p>
                 <div class="profile mt-2">
-                  <h3>Sara Wilsson</h3>
+                  <h3>Samira</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -409,11 +446,12 @@
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Wow, was ein Beratungsgespräch! Ich war total erstaunt, wieviel Zeit und Fachkompetenz in dieser
+                  Praxis stecken! Ich habe mich rundum wohl gefühlt! Vielen lieben Dank, für die tolle Erfahrung! Wir
+                  sehen uns definitiv wieder!.
                 </p>
                 <div class="profile mt-2">
-                  <h3>Jena Karlis</h3>
+                  <h3>Angelika Van der Beek</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -425,11 +463,16 @@
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Ich bin absolut begeistert von der Praxis von Frau Sofi!
+                  Die Atmosphäre ist modern, sauber und sehr einladend. Frau Sofi ist nicht nur äußerst professionell,
+                  sondern auch unglaublich herzlich und aufmerksam. Sie nimmt sich viel Zeit, berät individuell und
+                  sorgt dafür, dass man sich rundum wohlfühlt. Die Behandlungen sind auf höchstem Niveau, mit viel
+                  Fachwissen und Liebe zum Detail.
+                  Ich kann die Praxis von Frau Sofi uneingeschränkt weiterempfehlen – hier fühlt man sich in den besten
+                  Händen!
                 </p>
                 <div class="profile mt-2">
-                  <h3>Matt Brandon</h3>
+                  <h3>Maryam Zanganneh</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -441,11 +484,11 @@
                     class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Ich liebe ihre Arbeit ich habe dank ihr ein perfektes Ergebnis von meinem Lippen bekommen. Ich mache
+                  all meine Behandlungen nur noch bei ihr!
                 </p>
                 <div class="profile mt-2">
-                  <h3>John Larson</h3>
+                  <h3>Vildan Navriz</h3>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -557,8 +600,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Contact Us</p>
+        <h2>Kontakt</h2>
+        <p>Kontaktieren Sie uns</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -571,25 +614,26 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <h3>Adresse</h3>
+                  <p>Düsseldorfer Str. 159, 40545</p>
+                  <p>Düsseldorf, Germany</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="500">
                   <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday</p>
-                  <p>9:00AM - 05:00PM</p>
+                  <h3>Öffnungszeiten</h3>
+                  <p>Montag - Freitag</p>
+                  <p>10:30 - 18:00 Uhr</p>
+                  <p>Samstags nach Vereinbarung</p>
                 </div>
               </div><!-- End Info Item -->
 
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="300">
                   <i class="bi bi-telephone"></i>
-                  <h3>Call Us</h3>
+                  <h3>Telefon</h3>
                   <p>+49 176 39130222</p>
                 </div>
               </div><!-- End Info Item -->
@@ -597,7 +641,7 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
+                  <h3>Email</h3>
                   <p>info@sofiaesthetik.de</p>
                 </div>
               </div><!-- End Info Item -->
@@ -610,38 +654,10 @@
 
           <div class="col-lg-6">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.575086787931!2d-123.01456208465225!3d49.24627677933197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548676d39c422605%3A0x6c3a6a1278a9d1fe!2sBurnaby%2C%20BC%20V5C%206G1!5e0!3m2!1sen!2sca!4v1721298451374!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2498.436730551262!2d6.7417496775467525!3d51.22945123096912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8b564baa79aeb%3A0xc6034afc3cca83db!2sSoFi%20Aesthetik!5e0!3m2!1sen!2sca!4v1758056246007!5m2!1sen!2sca"
               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-              <div class="row gy-4">
 
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form> -->
           </div><!-- End Contact Form -->
 
         </div>
@@ -715,12 +731,12 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="FettWegSpritzePriceModal" tabindex="-1" role="dialog" aria-labelledby="FettWegSpritzePriceModalLabel"
-    aria-hidden="true">
+  <div class="modal fade" id="fettWegSpritzePriceModal" tabindex="-1" role="dialog"
+    aria-labelledby="fettWegSpritzePriceModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="FettWegSpritzePriceModalLabel">Fett Weg Spritze</h5>
+          <h5 class="modal-title" id="fettWegSpritzePriceModalLabel">Fett Weg Spritze</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
